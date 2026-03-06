@@ -1,3 +1,12 @@
+'''
+This is a naive personal explore and practice related to Vigenere cipher,
+including its encryption and decryption. 
+Some classic methods, IOC and letter frequencies for instance, are employed in this programme,
+though not fully consistent with classic programme.
+The correct percentage can reach 85% in best cases and holds a worst record of 50%.
+Although somewhat ugly, the programme can be, and should be treated seriously in light of the
+courage and diligence from a novice in computer science. 
+'''
 from collections import defaultdict
 def vigenere_encryption(plaintext, key):
     ciphered_list=[-1]*len(plaintext)
